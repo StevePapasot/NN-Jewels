@@ -1,0 +1,138 @@
+body {
+  background-color: #fefae0;
+  font-family: "Antic Didone", serif;
+}
+/*=========================== Navbar ===========================*/
+.navbar {
+  background-color: #ccd5ae;
+  font-family: "Inria Serif", serif;
+}
+.navbar img {
+  border-radius: 50%;
+}
+.navbar li {
+  font-size: 26px;
+}
+.navbar-nav > li {
+  margin-right: 100px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1100px) {
+  .navbar li {
+    font-size: 23px;
+  }
+  .navbar-nav > li {
+    margin-right: 20px;
+  }
+  .navbar img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar li {
+    font-size: 18px;
+  }
+}
+/*=============================================== Columns ==========================================*/
+
+/*====================================== Footer ==================================================*/
+.footer {
+  background-color: #ccd5ae;
+  padding: 3% 2% 1% 2%;
+}
+.footer ul {
+  list-style: none;
+}
+.footer a {
+  text-decoration: none;
+  font-family: "Antic Didone", serif;
+  font-size: 24px;
+  color: #000000;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer li {
+  text-align: left;
+  font-family: "Antic Didone", serif;
+  font-size: 24px;
+}
+.footer h3 {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: "Antic Didone", serif;
+}
+.footer button {
+  width: 45%;
+  height: 35px;
+  background-color: #fefae0;
+  border-radius: 15px;
+  border: 0px;
+  font-family: "Antic Didone", serif;
+  font-size: 26px;
+  margin: 2% 0% 0% 0%;
+}
+.footer p {
+  text-align: center;
+  font-size: 2vh;
+  font-family: "Dancing Script", cursive;
+}
+@media screen and (max-width: 1500px) {
+  .footer p {
+    text-align: center;
+    font-size: 2vh;
+  }
+  .footer a {
+    font-size: 22px;
+  }
+  .footer li {
+    font-size: 20px;
+  }
+  .footer h3 {
+    font-size: 22px;
+  }
+  .footer button {
+    width: 40%;
+    height: 35px;
+    background-color: #fefae0;
+    border-radius: 15px;
+    border: 0px;
+    font-family: "Antic Didone", serif;
+    font-size: 20px;
+    margin: 2% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .footer p {
+    text-align: center;
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 430px) {
+  .footer {
+    padding: 5% 2% 2% 2%;
+    margin: 0%;
+  }
+  .footer a {
+    font-size: 16px;
+  }
+  .footer li {
+    font-size: 16px;
+  }
+  .footer h3 {
+    font-size: 20px;
+  }
+  .footer button {
+    width: 40%;
+    height: 35px;
+    background-color: #fefae0;
+    border-radius: 15px;
+    border: 0px;
+    font-family: "Antic Didone", serif;
+    font-size: 20px;
+    margin: 2% 0% 2% 0%;
+  }
+}
