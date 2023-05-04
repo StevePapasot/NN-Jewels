@@ -2,3 +2,18 @@ body {
   background-color: #fefae0;
   font-family: "Antic Didone", serif;
 }
+/*=========================== Navbar ===========================*/
+.navbar {
+  background-color: #ccd5ae;
+  font-family: "Inria Serif", serif;
+}
+.navbar img {
+  border-radius: 50%;
+}
+.navbar li {
+  font-size: 26px;
+}
+.navbar a:hover {
+  font-size: 27px;
+  text-decoration: underline;
+}
