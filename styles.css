@@ -114,7 +114,7 @@ body {
     height: 250px;
   }
   .cards a {
-    padding-right: 70%;
+    padding-right: 68%;
   }
 }
 @media screen and (max-width: 1300px) {
