@@ -35,8 +35,33 @@ body {
     font-size: 18px;
   }
 }
-/*=============================================== Columns ==========================================*/
-
+/*=============================================== About ==========================================*/
+.about {
+  padding: 5%;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  text-align: left;
+  padding: 15% 0% 0% 0%;
+}
+p {
+  font-size: 1.2vw;
+  text-align: left;
+}
+.container {
+  padding: 2% 0%;
+}
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 3vw;
+    text-align: left;
+  }
+  iframe {
+    width: 100%;
+  }
+}
 /*====================================== Footer ==================================================*/
 .footer {
   background-color: #ccd5ae;
