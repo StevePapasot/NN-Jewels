@@ -75,7 +75,83 @@ img {
     padding: 2% 10%;
   }
 }
+/*===================== Cards ========================*/
+.card {
+  position: relative;
+  overflow: hidden;
+}
 
+.card-img-zoom {
+  display: block;
+  transition: transform 0.5s;
+}
+
+.card-img-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.card-img-zoom:hover:after {
+  opacity: 1;
+}
+
+.card-img-zoom:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.cards {
+  margin: 5% 2%;
+}
+.card img {
+  width: 100%;
+  height: 450px;
+}
+.cards p {
+  color: #000000;
+  font-family: "Inria Serif", serif;
+  font-size: 20px;
+  text-align: left;
+  padding-right: 75%;
+}
+@media screen and (max-width: 1600px) {
+  .card img {
+    width: 100%;
+    height: 250px;
+  }
+  .cards a {
+    padding-right: 68%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .card img {
+    width: 100%;
+    height: 250px;
+  }
+  .cards p {
+    padding-right: 58%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .cards p {
+    padding-right: 53%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card img {
+    width: 100%;
+    height: 450px;
+  }
+  .cards p {
+    padding-right: 73%;
+  }
+}
 /*====================================== Footer ==================================================*/
 .footer {
   background-color: #ccd5ae;
